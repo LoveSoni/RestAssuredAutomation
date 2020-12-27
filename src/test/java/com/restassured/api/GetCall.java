@@ -30,7 +30,7 @@ public class GetCall {
 
   @Test(priority = 2)
   public void verifyGetBooking() {
-        //RestAssured.baseURI = "https://restful-booker.herokuapp.com";
+         //RestAssured.baseURI = "https://restful-booker.herokuapp.com";
 
     RequestSpecification requestSpecification = RestAssured.given();
     Response res = requestSpecification.get("/booking/1");
